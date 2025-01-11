@@ -2,7 +2,7 @@
 # Website Infrastructure - Terraform Project
 
 ## Overview
-This repository contains the Terraform configuration files required to deploy and manage the infrastructure for a website. The infrastructure is modular and includes components for:
+This repository contains the Terraform configuration files which has code required to deploy and manage the infrastructure for a website. The infrastructure is modular and includes components for:
 
 - **ACM (AWS Certificate Manager)**: For managing SSL/TLS certificates.
 - **CloudFront**: For content delivery.
@@ -56,7 +56,8 @@ This folder contains the main entry point for Terraform configuration, including
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Mxolisi-Tshezi/website-infrastructure-terraform.git
+   
    cd website-infrastructure-terraform
    ```
 
@@ -85,11 +86,6 @@ This folder contains the main entry point for Terraform configuration, including
    terraform destroy
    ```
 
-## Placeholder: Infrastructure Architecture Diagram
+## Infrastructure Architecture Diagram
 
 ![Infrastructure Architecture Diagram](/Images/Architecture-image.png)
-
-_Add an image to visually represent the architecture of your infrastructure here._
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
