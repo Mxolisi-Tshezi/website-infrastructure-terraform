@@ -1,5 +1,5 @@
 variable "Hosted_zone" {
   type = string
-  default = "example.com"
+  default = "mxolisi-tshezi.com"
   description = "hosted name"
 }
